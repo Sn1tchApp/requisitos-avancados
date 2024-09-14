@@ -1,5 +1,8 @@
 # language: pt
 Funcionalidade: Histórico de Serviços
+  Para o usuário conseguir acessar os serviços já contratados anteriormente
+  Como um usuário do Guido Pit Stop
+  Quero poder pesquisar por serviço, data ou veículo e obter informações históricas como valores e profissionais envolvidos.
 
   Cenário: Consultar o histórico de serviços detalhado para um veículo
     Dado que um usuário está autenticado no sistema

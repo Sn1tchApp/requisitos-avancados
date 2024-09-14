@@ -1,5 +1,8 @@
 # language: pt
 Funcionalidade: Geolocolaziação
+  Para conseguir me localiza e localizar os prestadores de serviço próximos a mim
+  Como um usuário do Guido Pit Stop
+  Quero visualizar de forma rápida onde estou e onde estão as empresas próximas a mim
 
   Cenário: O usuário abre a ferramenta e clica em 'Localize-me' com o GPS ligado
     Dado que o GPS do celular está ligado
