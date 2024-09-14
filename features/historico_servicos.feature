@@ -12,14 +12,16 @@ Funcionalidade: Histórico de Serviços
   Cenário: Consultar serviços por data
     Dado que um usuário está autenticado no sistema
     Quando o usuário acessa a funcionalidade "Histórico de serviços"
-    E busca serviços realizados entre duas datas
-    Então a lista de serviços deve mostrar todos os serviços realizados no intervalo de data inserido
+    E insere a data inferior como "01-01-2024"
+    E insere a data superior como "30-06-2024"
+    E cluca em buscar serviços
+    Então a lista de serviços deve mostrar todos os serviços realizados no intervalo de "01-01-2024" e "30-06-2024"
 
   Cenário: Consultar serviços por tipo
     Dado que o usuário está autenticado no sistema
     Quando o usuário acessa a funcionalidade "Histórico de serviços"
-    E busca serviços realizados de um terminado tipo
-    Então a lista de serviços deve mostrar todos os serviços realizados daquela natureza
+    E busca serviços realizados do tipo "Troca de Óleo"
+    Então a lista de serviços deve mostrar todos os serviços realizados do tipo "Troca de Óleo"
 
   Cenário: Consultar histórico de valores pagos por serviço
     Dado que o usuário está com o resultado de uma pesquisa

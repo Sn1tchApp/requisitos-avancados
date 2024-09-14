@@ -19,15 +19,18 @@ Funcionalidade: Geolocolaziação
   Cenário: O usuário observa as prestadoras de serviço mais próximas cadastradas
     Dado que o usuário abriu a ferramenta
     Quando o usuário clica em "Localize-me"
+    E insere a distância limite como "1 km"
     Então a ferramenta deve mostrar as prestadoras em uma faixa de até 1km de distância
 
   Cenário: O usuário observa as prestadoras de serviço mais próximas cadastradas
     Dado que o usuário abriu a ferramenta
     Quando o usuário clica em "Localize-me"
+    E insere a distância limite como "1 km"    
     Então a ferramenta deve mostrar as prestadoras em uma faixa de até 1km de distância
 
   Cenário: O usuário observar os prestadores de serviço abertos e disponíveis na proximidade
     Dado que o usuário está na seção "Localiza-me"
     Quando o usuário clica em "Quem pode me ajudar"
+    E insere a distância limite como "1 km"
     Então a ferramenta deverá exibir apenas as prestadoras abertas no horário da consulta em uma faixa de até 1 km de distância
 
