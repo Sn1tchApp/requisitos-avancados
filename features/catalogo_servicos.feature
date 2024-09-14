@@ -1,7 +1,7 @@
 # language: pt
 
 Funcionalidade: Visualização do catálogo de serviços de manutenção automotiva
-  Como usuário do aplicativo de manutenção automotiva
+  Como usuário do aplicativo Guido
   Quero visualizar o catálogo de serviços
   Para escolher a manutenção que meu carro precisa
 
