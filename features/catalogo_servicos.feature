@@ -26,7 +26,7 @@ Funcionalidade: Visualização do catálogo de serviços de manutenção automot
   Cenário: Usuário seleciona um serviço para ver os detalhes
     Dado que o usuário seleciona o catálogo de serviços no aplicativo
     Quando o usuário seleciona o serviço "Troca de óleo"
-    Então o usuário deve ver informações como preço, tempo estimado e descrição do serviço
+    Então o usuário deve ver informações como oficinas que realizam o serviço, preço, tempo estimado e descrição do serviço
 
   Cenário: Usuário adiciona um serviço ao carrinho
     Dado que o usuário seleciona um serviço para comprar
