@@ -1,6 +1,9 @@
 # Language: pt
 
 Funcionalidade: Agendamento de Serviços
+    Para que o Motorista possa agendar serviços de manutenção
+    Eu como um Motorista que precisa de serviços pro meu veículo 
+    Quero poder escolher a data e hora do agendamento do meu serviço
 
     Cenário: Usuário escolhe data e hora para o agendamento
         Dado que o usuário acessa a página de agendamento de serviços

@@ -1,6 +1,9 @@
 # Language: pt
 
 Funcionalidade: Cadastro de Oficina
+    Para que o administrador possa cadastrar uma oficina no sistema
+    Eu como um administrador responsável pela oficina no sistema
+    Quero poder preencher os dados da oficina 
     
     Cenário: Oficina fornece uma localização válida
         Dado que o usuário administrador acessa a página de cadastro de oficinas
